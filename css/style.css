@@ -1,0 +1,385 @@
+*{
+     box-sizing: border-box;
+}
+body{
+     background-color: #FFFFFF;
+     margin: 0;
+}
+@font-face {
+     font-family: 'Lucida Sans Unicode';
+     src: url('../fonts/lucida_sans_unicode_regular-webfont.eot');
+     src: url('../fonts/lucida_sans_unicode_regular-webfont.eot?#iefix') format('embedded-opentype'),
+     url('../fonts/lucida_sans_unicode_regular-webfont.woff2') format('woff2'),
+     url('../fonts/lucida_sans_unicode_regular-webfont.woff') format('woff'),
+     url('../fonts/lucida_sans_unicode_regular-webfont.ttf') format('truetype');
+     font-weight: normal;
+     font-style: normal;
+}
+
+a{
+     text-decoration: none;
+}
+.container{
+     width: 909px;
+     margin: 0 auto;
+}
+header{
+     padding-top: 8px;
+}
+.title{
+     padding: 10px 0 5px;
+}
+.contact_menu{
+     height: 40px;
+     float: left;
+}
+.number{
+     float: left;
+     padding: 7px 7px 5px 0;
+     font-size: 19px;
+     font-family: "Arial", sans-serif;
+     color: rgb(94, 105, 109);
+     line-height: 1.415;
+}
+.icon_phone{
+     float: left;
+     padding: 7px 3px 7px 0;
+}
+.account_menu{
+     background: linear-gradient(#1f6787, #0c3357);
+     width: 496px;
+     height: 27px;
+     float: left;
+     margin: 7px 0 7px 14px;
+     border-radius: 3px;
+     box-shadow: 0 3px 3px 0 rgba(150, 150, 150, 0.75);
+}
+.account_menu img{
+     margin: 5px;
+}
+.account_menu input{
+     width: 113px;
+     height: 16px;
+     margin: 4px 7px 5px 0;
+}
+.title_item{
+     float: left;
+     height: 21px;
+}
+.border_right{
+     border-right: 1px solid white;
+     height: 10px;
+     margin: 8px 0 7px;
+}
+.title_item a{
+     text-decoration: none;
+     font-size: 12px;
+     font-family: "Lucida Sans Unicode", Arial, sans-serif;
+     color: rgb(255, 255, 255);
+     line-height: 2.333;
+}
+.title_item p{
+     color: #FFFFFF;
+     font-size: 12px;
+     margin: 7px 5px;
+}
+.lose_password {
+     font-size: 12px;
+     font-family: "Lucida Sans Unicode", Arial, sans-serif;
+     color: rgb(191, 191, 191);
+     text-decoration: underline;
+     line-height: 2.333;
+     margin-left: 13px;
+}
+.picture_menu{
+     display: block;
+     float: left;
+     background-color: white;
+     width: 74px;
+     height: 21px;
+     border: 1px solid #d3d8da;
+     margin: 9px 12px;
+     align-content: center;
+     padding: 3px 5px;
+     border-radius: 8px;
+     box-shadow: 0 3px 3px 0 rgba(0,0,0,0.2);
+}
+.picture_menu_item{
+     float: left;
+     height: 11px;
+     margin: -3px 4px;
+}
+.photo{
+     width: 911px;
+     height: 237px;
+}
+main{
+     margin-top: 20px;
+}
+nav{
+     background: linear-gradient(#505860, #010101);
+     height: 34px;
+     width: 911px;
+     margin-top: 6px;
+     padding-left: 80px;
+     border-radius: 5px;
+     box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.75);
+}
+nav li{
+     float: left;
+     width: 120px;
+     font-size: 15px;
+     font-family: "Lucida Sans Unicode", sans-serif;
+     color: rgb(255, 255, 255);
+     line-height: 1.867;
+     text-align: center;
+     margin-top: 3px;
+}
+nav li:hover{
+     height: 26px;
+     background: linear-gradient(#1f6787, #0c3357);
+     border-radius: 13px;
+}
+nav li:hover a{
+     color: white;
+}
+nav a{
+     font-size: 15px;
+     font-family: "Lucida Sans Unicode", Arial, sans-serif;
+     color: #d3d8da;
+     line-height: 1.867;
+     text-align: center;
+}
+nav ul a{
+     text-transform: uppercase;
+}
+aside img{
+     display: block;
+     float: left;
+     margin-right: 2px;
+     padding-top: 2px;
+     padding-left: 2px;
+}
+.basket_menu{
+     float: left;
+     margin-top: 5px;
+     margin-left: 15px;
+}
+.basket{
+     width: auto;
+     font-size: 11px;
+     font-family: "Arial", sans-serif;
+     color: rgb(146, 155, 159);
+     line-height: 1.2;
+}
+.basket_sum{
+     width: auto;
+     font-size: 11px;
+     font-family: "Arial", sans-serif;
+     color: rgb(146, 155, 159);
+     line-height: 1.2;
+     margin-left: 15px;
+}
+.price{
+     width: auto;
+     font-size: 12px;
+     font-family: "Arial", sans-serif;
+     color: rgb(13, 90, 143);
+     line-height: 1.2;
+     text-align: center;
+}
+.catalogue{
+     float: left;
+}
+.catalogue_item{
+     margin-left: 35px;
+}
+.catalogue_list{
+     width: 150px;
+     height: 30px;
+     border-radius: 15px;
+     margin-left: 2px;
+     padding: 0 0 3px 3px;
+     text-transform: uppercase;
+     font-size: 14px;
+     font-family: "Arial", sans-serif;
+     color: rgb(12, 50, 86);
+     line-height: 2;
+     text-align: left;
+}
+.catalogue_list a{
+     display: block;
+}
+.catalogue_head{
+     display: block;
+     margin-bottom: 15px;
+     width: 183px;
+     height: 28px;
+     border: 1px solid black;
+     border-radius: 15px;
+     text-transform: uppercase;
+     font-size: 13px;
+     font-family: "Lucida Sans Unicode", sans-serif;
+     color: rgb(17, 65, 101);
+     line-height: 2;
+     text-align: left;
+     padding: 0 0 2px 2px;
+     box-shadow: 0 3px 3px 0 rgba(150, 150, 150, 0.75);
+}
+.catalogue a{
+     font-size: 14px;
+     font-family: "Lucida Sans Unicode", sans-serif;
+     color: rgb(17, 65, 101);
+     line-height: 1.819;
+}
+.tyres_list{
+     width: 526px;
+     height: 626px;
+     float: left;
+     padding: 22px;
+     margin-left: 9px;
+     background: linear-gradient(#e5e7e8, #93a7b0);
+     border-radius: 3px;
+}
+.tyres{
+     margin-bottom: 27px;
+}
+figure img{
+     width: 137px;
+     height: 127px;
+     background: #ffffff;
+     padding: 4px 28px;
+     border-radius: 6px;
+}
+figcaption a{
+     display: block;
+     font-size: 16px;
+     font-family: "Lucida Sans Unicode", sans-serif;
+     color: rgb(32, 105, 136);
+     line-height: 0.875;
+     text-align: center;
+}
+figcaption a p{
+     font-size: 10px;
+     font-family: "Lucida Sans Unicode", Arial, sans-serif;
+     line-height: 1.875;
+     color: black;
+     text-align: center;
+}
+.tyres_price{
+     margin-top: 6px;
+     font-size: 17px;
+     font-family: "Arial", sans-serif;
+     color: rgb(17, 65, 101);
+     font-weight: bold;
+     font-style: italic;
+     line-height: 0.627;
+     text-align: center;
+}
+.brands{
+     float: right;
+     width: 182px;
+     height: 626px;
+}
+.brand_head{
+     height: 28px;
+     width: 183px;
+     margin-bottom: 15px;
+     padding-left: 2px;
+     border-radius: 15px;
+     text-transform: uppercase;
+     font-size: 14px;
+     font-family: "Lucida Sans Unicode", sans-serif;
+     color: rgb(12, 50, 86);
+     line-height: 2;
+     text-align: left;
+     box-shadow: 0 3px 3px 0 rgba(150, 150, 150, 0.75);
+}
+.brand_list{
+     height: 30px;
+     width: 135px;
+     margin: 5px 0 11px 14px;
+     padding: 0 0 3px 3px;
+     border-radius: 15px;
+     text-transform: uppercase;
+     font-size: 14px;
+     font-family: "Arial", sans-serif;
+     color: rgb(12, 50, 86);
+     line-height: 2;
+     text-align: left;
+}
+.brand_list span{
+     display: block;
+}
+.brand_item{
+     margin: 3px 0 0 24px;
+     font-size: 12px;
+     font-family: "Lucida Sans Unicode", Arial, sans-serif;
+     color: rgb(70, 89, 97);
+     line-height: 1.964;
+}
+.brand_buttom input{
+     height: 25px;
+     width: 80px;
+     color: #FFFFFF;
+     margin: 7px 0 20px 23px;
+     background-color: #1f6787;
+     border: 1px solid transparent;
+     border-radius: 15px;
+     box-shadow: 0 3px 3px 0 rgba(150, 150, 150, 0.75);
+}
+.trademark{
+     width: 690px;
+     height: 30px;
+     margin: 35px 100px 25px;
+}
+.brand_logo{
+     float: left;
+     margin-right: 13px;
+}
+footer{
+     background-color: #213a4d;
+     height: 100px;
+}
+.footer_menu{
+     margin: 5px 290px;
+}
+footer li{
+     float: left;
+     width: auto;
+     padding-right: 10px;
+     margin: 14px 5px 0;
+}
+footer li:hover a{
+     color: rgb(82, 171, 203);
+}
+.right_border{
+     border-right: 1px solid white;
+}
+footer li a{
+     font-size: 13px;
+     font-family: "Arial", sans-serif;
+     color: #d3d8da;
+     line-height: 1.364;
+}
+footer p{
+     margin: 15px 335px 0;
+     padding-bottom: 50px;
+     font-size: 10px;
+     font-family: "Arial", sans-serif;
+     color: rgb(127, 71, 64);
+     line-height: 1.8;
+}
+.left{
+     float: left;
+     margin-right: 30px;
+}
+.with_border{
+     border: 1px solid rgb(17, 65, 101);
+}
+.clear-fix:after {
+     content: "";
+     display: block;
+     clear: both;
+     text-align: center;
+}
